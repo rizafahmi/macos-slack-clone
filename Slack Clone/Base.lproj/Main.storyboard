@@ -762,6 +762,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="createAccountButtonClick:" target="XfG-lQ-9wD" id="7mz-qn-jEd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -787,7 +790,7 @@
         <!--Create Account View Controller-->
         <scene sceneID="Y2P-FF-h7K">
             <objects>
-                <viewController id="dvs-UH-eRD" customClass="CreateAccountViewController" customModule="Slack_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="createAccountVC" id="dvs-UH-eRD" customClass="CreateAccountViewController" customModule="Slack_Clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="VET-mg-afn">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
