@@ -12,6 +12,7 @@
 		744E14EB1FEFBF260014A5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744E14EA1FEFBF260014A5D7 /* Assets.xcassets */; };
 		744E14EE1FEFBF260014A5D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744E14EC1FEFBF260014A5D7 /* Main.storyboard */; };
 		744E14F71FEFC2D40014A5D7 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744E14F61FEFC2D40014A5D7 /* MainWindowController.swift */; };
+		744E14F91FEFC3800014A5D7 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744E14F81FEFC3800014A5D7 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		744E14EF1FEFBF260014A5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		744E14F01FEFBF260014A5D7 /* Slack_Clone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slack_Clone.entitlements; sourceTree = "<group>"; };
 		744E14F61FEFC2D40014A5D7 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		744E14F81FEFC3800014A5D7 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				744E14E61FEFBF260014A5D7 /* AppDelegate.swift */,
-				744E14E81FEFBF260014A5D7 /* LoginViewController.swift */,
 				744E14F61FEFC2D40014A5D7 /* MainWindowController.swift */,
+				744E14E81FEFBF260014A5D7 /* LoginViewController.swift */,
+				744E14F81FEFC3800014A5D7 /* CreateAccountViewController.swift */,
 				744E14EA1FEFBF260014A5D7 /* Assets.xcassets */,
 				744E14EC1FEFBF260014A5D7 /* Main.storyboard */,
 				744E14EF1FEFBF260014A5D7 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744E14F91FEFC3800014A5D7 /* CreateAccountViewController.swift in Sources */,
 				744E14E91FEFBF260014A5D7 /* LoginViewController.swift in Sources */,
 				744E14E71FEFBF260014A5D7 /* AppDelegate.swift in Sources */,
 				744E14F71FEFC2D40014A5D7 /* MainWindowController.swift in Sources */,
