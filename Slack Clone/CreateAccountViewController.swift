@@ -15,4 +15,9 @@ class CreateAccountViewController: NSViewController {
         // Do view setup here.
     }
     
+    @IBAction func loginButtonClick(_ sender: NSButton) {
+        if let mainVC = view.window?.windowController as? MainWindowController {
+            mainVC.backToLoginScreen()
+        }
+    }
 }

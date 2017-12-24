@@ -795,16 +795,106 @@
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gOL-I9-kl9">
-                                <rect key="frame" x="203" y="141" width="45" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Create" id="xTc-sa-RZl">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rLr-JK-Nm5">
+                                <rect key="frame" x="164" y="249" width="123" height="29"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Slack Clone" id="4GM-8y-KHz">
+                                    <font key="font" metaFont="system" size="24"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aoH-2P-gTR">
+                                <rect key="frame" x="35" y="173" width="180" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="name@domain.com" drawsBackground="YES" id="1N3-HI-TMQ">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WkL-jY-IDJ">
+                                <rect key="frame" x="35" y="141" width="180" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Password" drawsBackground="YES" id="0cP-Kt-Nzw">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uW2-EC-vXb">
+                                <rect key="frame" x="35" y="205" width="180" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="aF2-lE-Hve"/>
+                                    <constraint firstAttribute="height" constant="22" id="vwo-qC-nXe"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Name" drawsBackground="YES" id="dGy-Hh-vir">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wwC-ss-iKG">
+                                <rect key="frame" x="158" y="103" width="134" height="32"/>
+                                <buttonCell key="cell" type="push" title="Create Account" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UeX-Wm-ywY">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="B6T-a2-ZLq">
+                                <rect key="frame" x="262" y="135" width="127" height="32"/>
+                                <buttonCell key="cell" type="push" title="Choose Image" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RZM-5R-Jmj">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eBw-wA-A1h">
+                                <rect key="frame" x="91" y="53" width="269" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Already have an account? Click login below" id="5yC-7X-vS9">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MRB-GZ-YTh">
+                                <rect key="frame" x="188" y="15" width="74" height="32"/>
+                                <buttonCell key="cell" type="push" title="Login" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="u3K-Ll-2L6">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="loginButtonClick:" target="dvs-UH-eRD" id="Jdh-AD-L3w"/>
+                                </connections>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="4Gp-nU-Ay4">
+                                <rect key="frame" x="297" y="171" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="Zgm-99-DHp"/>
+                                    <constraint firstAttribute="height" constant="56" id="vXp-8l-Drh"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="user" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="hFK-Le-eQC">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="aoH-2P-gTR" firstAttribute="leading" secondItem="uW2-EC-vXb" secondAttribute="leading" id="5Du-5I-oTd"/>
+                            <constraint firstItem="MRB-GZ-YTh" firstAttribute="top" secondItem="eBw-wA-A1h" secondAttribute="bottom" constant="10" id="Hqf-mI-0PQ"/>
+                            <constraint firstItem="aoH-2P-gTR" firstAttribute="top" secondItem="uW2-EC-vXb" secondAttribute="bottom" constant="10" id="KHa-Wp-w0n"/>
+                            <constraint firstItem="WkL-jY-IDJ" firstAttribute="trailing" secondItem="aoH-2P-gTR" secondAttribute="trailing" id="LIV-ka-qrA"/>
+                            <constraint firstItem="4Gp-nU-Ay4" firstAttribute="top" secondItem="rLr-JK-Nm5" secondAttribute="bottom" constant="22" id="R46-JS-A5x"/>
+                            <constraint firstItem="aoH-2P-gTR" firstAttribute="trailing" secondItem="uW2-EC-vXb" secondAttribute="trailing" id="VJJ-a0-GE0"/>
+                            <constraint firstItem="MRB-GZ-YTh" firstAttribute="centerX" secondItem="VET-mg-afn" secondAttribute="centerX" id="XSV-XN-T0Y"/>
+                            <constraint firstItem="uW2-EC-vXb" firstAttribute="centerX" secondItem="VET-mg-afn" secondAttribute="centerX" constant="-100" id="YCm-Nk-Jie"/>
+                            <constraint firstItem="WkL-jY-IDJ" firstAttribute="leading" secondItem="aoH-2P-gTR" secondAttribute="leading" id="ZvE-Tr-CwJ"/>
+                            <constraint firstItem="rLr-JK-Nm5" firstAttribute="centerX" secondItem="VET-mg-afn" secondAttribute="centerX" id="bS7-BI-72z"/>
+                            <constraint firstAttribute="bottom" secondItem="MRB-GZ-YTh" secondAttribute="bottom" constant="22" id="c9c-wK-nJl"/>
+                            <constraint firstItem="B6T-a2-ZLq" firstAttribute="top" secondItem="4Gp-nU-Ay4" secondAttribute="bottom" constant="8" id="dG0-v8-aR4"/>
+                            <constraint firstItem="B6T-a2-ZLq" firstAttribute="centerX" secondItem="4Gp-nU-Ay4" secondAttribute="centerX" id="m3P-68-ElI"/>
+                            <constraint firstItem="uW2-EC-vXb" firstAttribute="top" secondItem="rLr-JK-Nm5" secondAttribute="bottom" constant="22" id="pD1-FB-8pJ"/>
+                            <constraint firstItem="4Gp-nU-Ay4" firstAttribute="centerX" secondItem="VET-mg-afn" secondAttribute="centerX" constant="100" id="plS-tn-Slm"/>
+                            <constraint firstItem="wwC-ss-iKG" firstAttribute="top" secondItem="WkL-jY-IDJ" secondAttribute="bottom" constant="10" id="rSV-Kb-bKW"/>
+                            <constraint firstItem="rLr-JK-Nm5" firstAttribute="top" secondItem="VET-mg-afn" secondAttribute="top" constant="22" id="yrk-j7-96o"/>
+                            <constraint firstItem="WkL-jY-IDJ" firstAttribute="top" secondItem="aoH-2P-gTR" secondAttribute="bottom" constant="10" id="z3c-eY-pFs"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="hnc-R5-BJ6" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -812,4 +902,7 @@
             <point key="canvasLocation" x="564" y="640"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="user" width="51.200000762939453" height="51.200000762939453"/>
+    </resources>
 </document>
