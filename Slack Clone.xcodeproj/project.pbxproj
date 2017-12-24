@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		744E14E71FEFBF260014A5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744E14E61FEFBF260014A5D7 /* AppDelegate.swift */; };
-		744E14E91FEFBF260014A5D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744E14E81FEFBF260014A5D7 /* ViewController.swift */; };
+		744E14E91FEFBF260014A5D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744E14E81FEFBF260014A5D7 /* LoginViewController.swift */; };
 		744E14EB1FEFBF260014A5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744E14EA1FEFBF260014A5D7 /* Assets.xcassets */; };
 		744E14EE1FEFBF260014A5D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744E14EC1FEFBF260014A5D7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		744E14E31FEFBF260014A5D7 /* Slack Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		744E14E61FEFBF260014A5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		744E14E81FEFBF260014A5D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		744E14E81FEFBF260014A5D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		744E14EA1FEFBF260014A5D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744E14ED1FEFBF260014A5D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		744E14EF1FEFBF260014A5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				744E14E61FEFBF260014A5D7 /* AppDelegate.swift */,
-				744E14E81FEFBF260014A5D7 /* ViewController.swift */,
+				744E14E81FEFBF260014A5D7 /* LoginViewController.swift */,
 				744E14EA1FEFBF260014A5D7 /* Assets.xcassets */,
 				744E14EC1FEFBF260014A5D7 /* Main.storyboard */,
 				744E14EF1FEFBF260014A5D7 /* Info.plist */,
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744E14E91FEFBF260014A5D7 /* ViewController.swift in Sources */,
+				744E14E91FEFBF260014A5D7 /* LoginViewController.swift in Sources */,
 				744E14E71FEFBF260014A5D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

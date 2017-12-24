@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  Slack Clone
 //
 //  Created by Riza Fahmi on 12/24/17.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class LoginViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
