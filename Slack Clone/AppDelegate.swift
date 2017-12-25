@@ -19,7 +19,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let config = ParseClientConfiguration { (
             configThing: ParseMutableClientConfiguration) in
             configThing.applicationId = "slackcloneappid"
-            configThing.server = "http://slackclone2202.herokuapp.com/parse"
+            configThing.server = "https://slackclone2202.herokuapp.com/parse"
         }
         Parse.initialize(with: config)
     }
