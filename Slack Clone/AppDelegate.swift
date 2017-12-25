@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import Parse
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -14,7 +15,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        
+        let config = ParseClientConfiguration { (
+            configThing: ParseMutableClientConfiguration) in
+            configThing.applicationId = "slackcloneappid"
+            configThing.server = "http://slackclone2202.herokuapp.com/parse"
+        }
+        Parse.initialize(with: config)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
