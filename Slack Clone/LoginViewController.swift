@@ -28,6 +28,9 @@ class LoginViewController: NSViewController {
         PFUser.logInWithUsername(inBackground: emailTextField.stringValue, password: passwordTextField.stringValue) { (user:PFUser?, error:Error?) in
             if error == nil {
                 print("You logged in!")
+                if let mainVC = self.view.window?.windowController as? MainWindowController {
+                    mainVC.moveToChatScreen()
+                }
             } else {
                 print("There's a problem, couldn't log in")
             }

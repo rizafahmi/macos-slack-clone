@@ -67,6 +67,9 @@ class CreateAccountViewController: NSViewController {
         user.signUpInBackground {(success:Bool, error:Error?) in
             if success {
                 print("Made a user!")
+                if let mainVC = self.view.window?.windowController as? MainWindowController {
+                    mainVC.moveToChatScreen()
+                }
             } else {
                 print("We have a problem")
             }
